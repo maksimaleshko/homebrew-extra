@@ -1,4 +1,4 @@
-class Sonarqube < Formula
+class SonarqubeAT672 < Formula
     desc "Manage code quality"
     homepage "https://www.sonarqube.org/"
     url "https://sonarsource.bintray.com/Distribution/sonarqube/sonarqube-6.7.2.zip"
