@@ -6,6 +6,6 @@ class DockerVolumeExplorer < Formula
     depends_on "docker" => :optional
 
     def install
-        bin.install 'docker-volume-explorer'
+        bin.install 'docker-volume-explorer.sh'
     end
 end
