@@ -1,11 +1,12 @@
 class DockerVolumeExplorer < Formula
     desc "docker-volume-explorer"
     homepage "https://github.com/maksimaleshko/docker-volume-explorer"
-    head "https://github.com/maksimaleshko/docker-volume-explorer.git"
+    url "https://raw.githubusercontent.com/maksimaleshko/docker-volume-explorer/master/docker-volume-explorer.sh"
+    sha256 "66be7b17febf7ad8f991bce64efd869f0029096674213ca5f8fa69d687d34912"
   
     depends_on "docker" => :optional
 
     def install
-        bin.install_symlink "#{libexec}/bin/docker-volume-explorer.sh" => "docker-volume-explorer"
+        bin.install "docker-volume-explorer.sh" => "docker-volume-explorer"
     end
 end
