@@ -3,7 +3,7 @@ class DockerVolumeExplorer < Formula
     homepage "https://github.com/maksimaleshko/docker-volume-explorer"
     head "https://github.com/maksimaleshko/docker-volume-explorer.git"
   
-    depends_on "docker" => :recommended
+    depends_on "docker" => :optional
 
     def install
         bin.install 'docker-volume-explorer'
